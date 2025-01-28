@@ -12,6 +12,7 @@ import { AboutUsComponent } from './components/about-us/about-us.component';
 import { OfferComponent } from './shared/offer/offer.component';
 import { RouterModule } from '@angular/router';
 import { FormsModule } from '@angular/forms';
+import { AdminViewComponent } from './components/admin-view/admin-view.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { FormsModule } from '@angular/forms';
     ServicesComponent,
     ContactUsComponent,
     AboutUsComponent,
-    OfferComponent
+    OfferComponent,
+    AdminViewComponent
   ],
   imports: [
     BrowserModule,
